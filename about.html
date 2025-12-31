@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>À propos – Prénom NOM</title>
+  <meta name="description" content="Présentation et objectifs." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="brand"><span class="brand-dot"></span><span>Prénom NOM</span></div>
+    <nav class="navlinks">
+      <a href="index.html">Accueil</a>
+      <a class="active" href="about.html">À propos</a>
+      <a href="bureautique.html">Bureautique</a>
+      <a href="travaux.html">Mes travaux</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div class="card hero-card">
+      <span class="badge">Présentation</span>
+      <h1>À propos de moi</h1>
+      <p class="lead">
+        Je suis étudiant à l’EPHEC (campus Galilée), en bachelier orientation automatisation.
+        À travers mes études, je développe des compétences techniques, mais aussi des compétences transversales essentielles :
+        rigueur, organisation, communication et mise en valeur d’un projet.
+      </p>
+
+      <hr>
+
+      <div class="grid">
+        <div class="card tile">
+          <h3>Ce que je construis</h3>
+          <p>Une base de portfolio simple et efficace, qui regroupe mes productions et évoluera dans le temps.</p>
+        </div>
+        <div class="card tile">
+          <h3>Mes points forts</h3>
+          <ul class="clean">
+            <li>Structurer l’information avant de produire</li>
+            <li>Recherche de clarté et de cohérence</li>
+            <li>Autonomie et progression continue</li>
+          </ul>
+        </div>
+        <div class="card tile">
+          <h3>Compétences</h3>
+          <ul class="clean">
+            <li>Bureautique (Word, Excel, PowerPoint)</li>
+            <li>Communication écrite et orale</li>
+            <li>Organisation et méthodologie</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="actions" style="margin-top:18px;">
+        <a class="btn primary" href="travaux.html">Accéder aux travaux</a>
+        <a class="btn" href="contact.html">Me contacter</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-row">
+      <div>© <span id="y"></span> Prénom NOM</div>
+      <div class="small">Dernière mise à jour : à compléter</div>
+    </div>
+  </footer>
+</main>
+
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

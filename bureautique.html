@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bureautique – Prénom NOM</title>
+  <meta name="description" content="Mon avis sur le cours de bureautique et ce que j'en retiens." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="brand"><span class="brand-dot"></span><span>Prénom NOM</span></div>
+    <nav class="navlinks">
+      <a href="index.html">Accueil</a>
+      <a href="about.html">À propos</a>
+      <a class="active" href="bureautique.html">Bureautique</a>
+      <a href="travaux.html">Mes travaux</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div class="card hero-card">
+      <span class="badge">Cours de bureautique · Mon avis</span>
+      <h1>Ce que je retiens du cours</h1>
+      <p class="lead">
+        Le cours de bureautique m’a fait prendre conscience que la forme et la clarté d’un document influencent directement
+        la crédibilité d’un message. Dans un contexte académique ou professionnel, structurer l’information, produire des supports propres
+        et rendre un contenu lisible est un vrai avantage.
+      </p>
+
+      <div class="grid">
+        <div class="card tile">
+          <h3>Ce que le cours m’a apporté</h3>
+          <ul class="clean">
+            <li>Importance de la structure avant la mise en forme</li>
+            <li>Rigueur : cohérence, titres, alignements, lisibilité</li>
+            <li>Meilleure communication des résultats</li>
+          </ul>
+        </div>
+
+        <div class="card tile">
+          <h3>Ce que j’applique maintenant</h3>
+          <ul class="clean">
+            <li>Hiérarchiser l’information (du plus important au détail)</li>
+            <li>Aller à l’essentiel (lisibilité &gt; quantité)</li>
+            <li>Penser “utilisateur” : compréhension rapide</li>
+          </ul>
+        </div>
+
+        <div class="card tile">
+          <h3>Piste d’amélioration (constructive)</h3>
+          <p class="small">
+            Pour être encore plus efficace, davantage d’exemples concrets et d’exercices guidés permettraient de progresser plus vite
+            sur les automatismes (mise en forme, tableaux, cohérence graphique).
+          </p>
+        </div>
+      </div>
+
+      <div class="actions" style="margin-top:18px;">
+        <a class="btn primary" href="travaux.html">Voir les productions</a>
+        <a class="btn" href="about.html">À propos</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-row">
+      <div>© <span id="y"></span> Prénom NOM</div>
+      <div class="small">Page dédiée au cours de bureautique</div>
+    </div>
+  </footer>
+</main>
+
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

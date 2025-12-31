@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mes travaux – Prénom NOM</title>
+  <meta name="description" content="Accès à mes productions : CV, présentations et documents." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="brand"><span class="brand-dot"></span><span>Prénom NOM</span></div>
+    <nav class="navlinks">
+      <a href="index.html">Accueil</a>
+      <a href="about.html">À propos</a>
+      <a href="bureautique.html">Bureautique</a>
+      <a class="active" href="travaux.html">Mes travaux</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div class="card hero-card">
+      <span class="badge">Documents & liens</span>
+      <h1>Mes travaux</h1>
+      <p class="lead">
+        Cette page regroupe mes productions réalisées dans le cadre du cours (et autres documents pertinents).
+        Les liens ci-dessous sont destinés à faciliter l’accès rapide aux livrables.
+      </p>
+
+      <hr>
+
+      <div class="section-title">
+        <h2>Bureautique</h2>
+        <span class="small">PowerPoint / PDF / ressources</span>
+      </div>
+
+      <div class="grid">
+        <div class="card tile">
+          <h3>Analyse de la communication (Cours 2)</h3>
+          <p>Présentation structurée : rapport, présentation, vidéo et site web.</p>
+          <div class="actions" style="margin-top:12px;">
+            <!-- Remplace # par un lien GitHub (PDF) ou un lien externe -->
+            <a class="btn primary" href="assets/docs/Grad_Alexandre_Bureautique_Analyse_communication.pptx" target="_blank" rel="noopener">Ouvrir / télécharger</a>
+          </div>
+          <p class="small" style="margin-top:10px;">Lien à compléter</p>
+        </div>
+
+        <div class="card tile">
+          <h3>CV (Genially)</h3>
+          <p>CV en ligne via Genially (lien cliquable).</p>
+          <div class="actions" style="margin-top:12px;">
+            <!-- Colle ton lien Genially ici -->
+            <a class="btn primary" href="https://view.genially.com/691def768abc5603d85dfb3c/personal-branding-alexandregradcv" target="_blank" rel="noopener">Voir mon CV</a>
+          </div>
+          <p class="small" style="margin-top:10px;">Remplace le lien par ton URL Genially</p>
+        </div>
+
+        <div class="card tile">
+          <h3>Autres documents</h3>
+          <p>Cette section regroupera progressivement d’autres productions (bureautique, documents, etc.).</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="section-title">
+        <h2>Bureautique</h2>
+        <span class="small">documents à ajouter</span>
+      </div>
+
+      <div class="grid">
+        <div class="card tile">
+          <h3>Documents / exercices</h3>
+          <p>À compléter au fur et à mesure (tableaux, documents, supports).</p>
+          <p class="small" style="margin-top:10px;">Tu peux ajouter ici des PDF hébergés sur GitHub Pages.</p>
+        </div>
+        <div class="card tile">
+          <h3>Liens utiles</h3>
+          <ul class="clean">
+            <li><a href="bureautique.html">Mon avis sur le cours</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="card tile">
+          <h3>Organisation</h3>
+          <p>Pour ajouter un document : place-le dans un dossier <code>assets/</code> puis crée un lien vers ce fichier.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-row">
+      <div>© <span id="y"></span> Prénom NOM</div>
+      <div class="small">Page “Mes travaux” – mise à jour continue</div>
+    </div>
+  </footer>
+</main>
+
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
